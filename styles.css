@@ -1,0 +1,40 @@
+/* Estilos adicionales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url('assets/header-bg.jpg') no-repeat center center/cover;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes en la tabla */
+.img-table {
+    width: 100px;
+    height: auto;
+}
+
+.table td, .table th{
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Agregar foco visible a los elementos interactivos */
+:focus {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+}
+
+/* Estilos para las tarjetas de productos */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
