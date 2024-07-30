@@ -6,11 +6,21 @@
     <title>Bazar y Papelería Israel</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            object-fit: cover;
+            height: 200px; /* Ajusta esta altura según sea necesario */
+        }
+
+        .embed-responsive-16by9::before {
+            padding-top: 56.25%;
+        }
+    </style>
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-5" role="banner">
+    <header class="bg-primary text-white text-center py-4" role="banner">
         <h1 class="font-weight-bold" tabindex="0">Bazar y Papelería Israel</h1>
-        <h2 tabindex="0">Todo lo que necesitas para tu oficina y escuela</h2>
+        <h3 tabindex="0">Todo lo que necesitas para tu oficina y escuela</h3>
     </header>
 
     <main class="container my-5" role="main">
@@ -21,28 +31,28 @@
             <div class="row">
                 <div class="col-md-4 mb-4" tabindex="0">
                     <div class="card h-100" tabindex="0">
-                        <img src="assets/Papeleria-barata.png" class="card-img-top" alt="Producto de papelería">
+                        <img src="assets/Papeleria-barata.png" class="card-img-top product-image" alt="Productos de papelería">
                         <div class="card-body">
                             <h3 class="card-title" tabindex="0">Productos de papelería</h3>
-                            <p class="card-text" tabindex="0">Descripción del producto 1.</p>
+                            <p class="card-text" tabindex="0">Todo tipo de productos para la oficina y colegio.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4" tabindex="0">
                     <div class="card h-100" tabindex="0">
-                        <img src="assets/Productos-aseo.png" class="card-img-top" alt="Producto de aseo">
+                        <img src="assets/Productos-aseo.png" class="card-img-top product-image" alt="Productos de aseo">
                         <div class="card-body">
                             <h3 class="card-title" tabindex="0">Productos de aseo</h3>
-                            <p class="card-text" tabindex="0">Descripción del producto 2.</p>
+                            <p class="card-text" tabindex="0">Productos de primera necesidad para mantener un buen aseo en tu hogar.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4" tabindex="0">
                     <div class="card h-100" tabindex="0">
-                        <img src="assets/Productos-belleza.png" class="card-img-top" alt="Producto de belleza">
+                        <img src="assets/Productos-belleza.png" class="card-img-top product-image" alt="Productos de belleza">
                         <div class="card-body">
                             <h3 class="card-title" tabindex="0">Productos de belleza</h3>
-                            <p class="card-text" tabindex="0">Descripción del producto 3.</p>
+                            <p class="card-text" tabindex="0">Para las mujeres, productos para resaltar su belleza natural.</p>
                         </div>
                     </div>
                 </div>
@@ -51,66 +61,68 @@
 
         <section class="my-5">
             <h2 class="text-center" tabindex="0">Tabla de Productos</h2>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th tabindex="0">Producto</th>
-                        <th tabindex="0">Descripción</th>
-                        <th tabindex="0">Precio</th>
-                        <th tabindex="0">Imagen</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr tabindex="0">
-                        <td tabindex="0">Cuaderno académico de cuadros 100 hojas</td>
-                        <td tabindex="0">Cuaderno académico de cuadros de 100 hojas marca norma.</td>
-                        <td tabindex="0">$1.50</td>
-                        <td><img src="assets/productos/cuaderno-academico.png" alt="Cuaderno académico de cuadros" class="img-table" tabindex="0"></td>
-                    </tr>
-                    <tr tabindex="0">
-                        <td tabindex="0">Foami escarchado A4</td>
-                        <td tabindex="0">Foami escarchado de la mejor calidad en formato A4</td>
-                        <td tabindex="0">$0.45</td>
-                        <td><img src="assets/productos/Foami-Escarcha-Colores.png" alt="Foami escarchado A4" class="img-table" tabindex="0"></td>
-                    </tr>
-                    <tr tabindex="0">
-                        <td tabindex="0">Pinturas Norma 12 colores</td>
-                        <td tabindex="0">Pinturas Norma de 12 colores con sacapuntas incluido</td>
-                        <td tabindex="0">$5.25</td>
-                        <td><img src="assets/productos/lapices-colores.png" alt="Pinturas Norma 12 colores" class="img-table" tabindex="0"></td>
-                    </tr>
-                    <tr tabindex="0">
-                        <td tabindex="0">Cortauñas mediano</td>
-                        <td tabindex="0">Cortauñas de colores varios con herramientas adicionales</td>
-                        <td tabindex="0">$1.00</td>
-                        <td><img src="assets/productos/cortauñas.png" alt="Cortauñas mediano" class="img-table" tabindex="0"></td>
-                    </tr>
-                    <tr tabindex="0">
-                        <td tabindex="0">Peinilla mediana</td>
-                        <td tabindex="0">Peinillas de distintos colores</td>
-                        <td tabindex="0">$1.75</td>
-                        <td><img src="assets/productos/Peinilla.png" alt="Peinilla mediana" class="img-table" tabindex="0"></td>
-                    </tr>
-                    <tr tabindex="0">
-                        <td tabindex="0">Avon Far Away Rebel Eau de Parfum</td>
-                        <td tabindex="0">Far Away Rebel Eau de Parfum for women es una composición única con acentos intrigantes que serán apreciados por amantes de la fiesta</td>
-                        <td tabindex="0">$30.50</td>
-                        <td><img src="assets/productos/Perfume_mujer.jpg" alt="Avon Far Away Rebel Eau de Parfum" class="img-table" tabindex="0"></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th tabindex="0">Producto</th>
+                            <th tabindex="0">Descripción</th>
+                            <th tabindex="0">Precio</th>
+                            <th tabindex="0">Imagen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr tabindex="0">
+                            <td tabindex="0">Cuaderno académico de cuadros 100 hojas</td>
+                            <td tabindex="0">Cuaderno académico de cuadros de 100 hojas marca norma.</td>
+                            <td tabindex="0">$1.50</td>
+                            <td><img src="assets/productos/cuaderno-academico.png" alt="Cuaderno académico de cuadros por un valor de 1.50 dólares" class="img-table" tabindex="0"></td>
+                        </tr>
+                        <tr tabindex="0">
+                            <td tabindex="0">Foami escarchado A4</td>
+                            <td tabindex="0">Foami escarchado de la mejor calidad en formato A4</td>
+                            <td tabindex="0">$0.45</td>
+                            <td><img src="assets/productos/Foami-Escarcha-Colores.png" alt="Foami escarchado A4 por un valor de 0.45 dólares" class="img-table" tabindex="0"></td>
+                        </tr>
+                        <tr tabindex="0">
+                            <td tabindex="0">Pinturas Norma 12 colores</td>
+                            <td tabindex="0">Pinturas Norma de 12 colores con sacapuntas incluido</td>
+                            <td tabindex="0">$5.25</td>
+                            <td><img src="assets/productos/lapices-colores.png" alt="Pinturas Norma 12 colores por un valor de 5.25 dólares" class="img-table" tabindex="0"></td>
+                        </tr>
+                        <tr tabindex="0">
+                            <td tabindex="0">Cortauñas mediano</td>
+                            <td tabindex="0">Cortauñas de colores varios con herramientas adicionales</td>
+                            <td tabindex="0">$1.00</td>
+                            <td><img src="assets/productos/cortauñas.png" alt="Cortauñas mediano por un valor de un dolar" class="img-table" tabindex="0"></td>
+                        </tr>
+                        <tr tabindex="0">
+                            <td tabindex="0">Peinilla mediana</td>
+                            <td tabindex="0">Peinillas de distintos colores</td>
+                            <td tabindex="0">$1.75</td>
+                            <td><img src="assets/productos/Peinilla.png" alt="Peinilla mediana por un valor de 1.75 dólares" class="img-table" tabindex="0"></td>
+                        </tr>
+                        <tr tabindex="0">
+                            <td tabindex="0">Avon Far Away Rebel Eau de Parfum</td>
+                            <td tabindex="0">Far Away Rebel Eau de Parfum for women es una composición única con acentos intrigantes que serán apreciados por amantes de la fiesta</td>
+                            <td tabindex="0">$30.50</td>
+                            <td><img src="assets/productos/Perfume_mujer.jpg" alt="Avon Far Away Rebel Eau de Parfum por un valor de 30.50 dólares" class="img-table" tabindex="0"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
         <section class="my-5 text-center">
             <h2 tabindex="0">Video Promocional</h2>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bcwcRbw7_dA?si=thsMtAriHGuO4K6o&amp;start=89" title="Video promocional del emprendimiento" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen tabindex="0"></iframe>
+                <iframe class="embed-responsive-item" src="assets/¡Descubre la variedad en Bazar y Papelería Israel!.mp4" title="Video promocional del emprendimiento" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen tabindex="0"></iframe>
             </div>
         </section>
     </main>
 
     <footer class="bg-dark text-white text-center py-3" role="contentinfo">
-        <p tabindex="0">&copy; 2024 Bazar y Papelería. Todos los derechos reservados.</p>
+        <p tabindex="0">&copy; 2024 Bazar y Papelería Israel. Todos los derechos reservados.</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
